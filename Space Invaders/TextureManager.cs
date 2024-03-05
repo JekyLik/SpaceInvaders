@@ -7,7 +7,7 @@ namespace Space_Invaders;
 
 public class TextureManager
 {
-    private const string ASSETS_PATH = "/Users/JekyL/RiderProjects/Space Invaders/Space Invaders/Assets";
+    private const string ASSETS_PATH = "../../../Assets";
     private const string BACKGROUND_TEXTURE_PATH = "/Backgrounds/starfieldBG.png";
     private const string PLAYER_TEXTURE_PATH = "/Ships/spaceShips_006.png";
     private const string ENEMY_TEXTURE_PATH = "/Enemies/enemyBlue1.png";

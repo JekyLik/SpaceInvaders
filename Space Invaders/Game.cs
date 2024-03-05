@@ -38,7 +38,7 @@ public class Game
     
     private Vector2f GetPlayerSpawnPosition(GameConfiguration gameConfiguration, Texture texture)
     {
-        var screenCenter = new Vector2f(gameConfiguration.Width / 2f, gameConfiguration.Height / 2f);
+        var screenCenter = new Vector2f(gameConfiguration.Width / 2f, gameConfiguration.Height / 2f+300);
         var playerSpawnPosition = screenCenter - (Vector2f)texture.Size / 2f;
         return playerSpawnPosition;
     }

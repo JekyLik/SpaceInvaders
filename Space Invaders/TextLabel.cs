@@ -5,7 +5,7 @@ namespace Space_Invaders;
 
 public class TextLabel
 {
-    private const string FONT_PATH = "/Users/JekyL/RiderProjects/Space Invaders/Space Invaders/Assets/Fonts/";
+    private const string FONT_PATH = "../../../Assets/Fonts/";
     private readonly Text _text;
     
     public TextLabel(string text, string fontName, uint fontSize, Color textColor, Vector2f textPosition)
